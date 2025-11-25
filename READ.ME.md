@@ -200,7 +200,7 @@ curl -X POST http://localhost:3000/api/transfer \
 1. Clone e entre no projeto
 
 ```powershell
-git clone <repo-url>
+git clone https://github.com/hiroyats05/WalletModuleAPI
 cd WalletModuleAPI
 ```
 
