@@ -16,3 +16,11 @@ model Wallet {
   balance Float
   bank    String
 }
+
+model Transfer {
+  id         String  @id @default(uuid())
+  fromWallet String
+  toWallet   String
+  amount     Float
+  timestamp  DateTime @default(now())
+}
